@@ -60,4 +60,31 @@ develop(조장) - branch rules()
 ex) 홍길동/회원가입기능
 3.  dev branch에 pull request 요청
 4. 서로 approve 댓글 추가해서 dev에 mergr 해보기
+
+ [issue]
+[pl]요구사항정의작업
+ - [ ] 요구사항 내용 정리
+ - [ ] USECASE
+ - [ ] USECASE 명세서
+
+라벨 milestone
+  - [ ] 화면설계
+
+[PL] 요구사항 정의-정승원
+ - [ ] 사전인터뷰
+ - [ ] Draw.io 그림그리기
+ - [ ] 파일로 저장
+
+[PL] USECASE-정승원
+ - [ ] Frame 만들기
+ - [ ] Actor 만들기
+ - [ ] usecase 단위 만들기
+ - [ ] 관계선 정의하기
+[PL] USECASE명세서-정승원
+ - [ ] USECASE이름지정
+ - [ ] 사전/사후 관계
+ - [ ] 정상흐름
+ - [ ] 대안흐름
+ - [ ] 예외흐름
+
 ```
