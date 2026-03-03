@@ -40,3 +40,23 @@ develop(조장) - branch rules()
  - feature(조원)
  - feature(조원)
  - feature(조원)
+
+파일을 merge하려면 최소 한명의 승인이 필요
+
+[조장]
+1. Organization 생성
+2. Repository 생성
+3. Branch 생성 (Main, Dev)
+4. 팀원 초대 (Organization -> Settings -> Collaborators and Teams -> Add People)
+5. 권한 설정 (Organization -> Settings -> Member Privileges -> Write 권한)
+6. Repository's Branch Rule 설정 (Organization -> Settings -> Branches -> 
+ main : Lock Branch
+ dev : Require a pull request before merging
+
+[조원]
+
+1. Organiztion 의 Repository 확인
+2. 본인이름/기능명 branch 생성
+ex) 홍길동/회원가입기능
+3.  dev branch에 pull request 요청
+4. 서로 approve 댓글 추가해서 dev에 mergr 해보기
