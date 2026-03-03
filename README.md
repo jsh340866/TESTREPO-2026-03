@@ -1,7 +1,7 @@
-## 풀스택 계발자 프로젝트 수업 과정 3월
+# 풀스택 계발자 프로젝트 수업 과정 3월
 
-# 26-03-03
-Git 명령어 사용법
+## 26-03-03
+### Git 명령어 사용법
 ```
 git add ""
 git add *
@@ -32,3 +32,11 @@ git clone 주소 //
 cd tab클릭
 
 ```
+### GitHun 협업
+
+main(조장) - branch rules(x - Lock Branch)
+develop(조장) - branch rules()
+ - feature(조원)	
+ - feature(조원)
+ - feature(조원)
+ - feature(조원)
