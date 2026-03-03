@@ -61,7 +61,8 @@ ex) 홍길동/회원가입기능
 3.  dev branch에 pull request 요청
 4. 서로 approve 댓글 추가해서 dev에 mergr 해보기
 
- [issue]
+[issue]
+
 [pl]요구사항정의작업
  - [ ] 요구사항 내용 정리
  - [ ] USECASE
