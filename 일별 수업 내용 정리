@@ -61,7 +61,12 @@ ex) 홍길동/회원가입기능
 3.  dev branch에 pull request 요청
 4. 서로 approve 댓글 추가해서 dev에 mergr 해보기
 
-[issue]
+[Issue 만들기]
+
+1. 기본 ISSUE 만들기
+1-1.LABEL - 태그 붙이기 
+1-2.TYPE - TASK/FEATURE/BUG
+1-3.MILESTONE - 업무 상위 일정
 
 [pl]요구사항정의작업
  - [ ] 요구사항 내용 정리
@@ -88,5 +93,9 @@ ex) 홍길동/회원가입기능
  - [ ] 정상흐름
  - [ ] 대안흐름
  - [ ] 예외흐름
+
+작성 후 create a branch
+생성한 branch로 이동 후 작업물 계시
+pull request 승인 대기
 
 ```
