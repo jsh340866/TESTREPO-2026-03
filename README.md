@@ -32,7 +32,7 @@ git clone 주소 //
 cd tab클릭
 
 ```
-### GitHun 협업
+### GitHub 협업
 ```
 main(조장) - branch rules(x - Lock Branch)
 develop(조장) - branch rules()
