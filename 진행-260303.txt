@@ -1,0 +1,160 @@
+
+```
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 527 bytes | 527.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git
+   bcb0ede..d131362  master -> master
+
+C:\Users\Administrator\Downloads\GITPUSH>git log --oneline
+d131362 (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+f85d8aa v0.4 - FROM LOCAL
+bcb0ede v0.4 - FROM ORIGIN
+4af0856 v0.3
+5ca4dbd v0.2
+505c14e v0.1
+7ab12b5 v0.0
+
+C:\Users\Administrator\Downloads\GITPUSH>git add *
+
+C:\Users\Administrator\Downloads\GITPUSH>git commit -m "v0.5 LOCAL"
+[master 2a75022] v0.5 LOCAL
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+C:\Users\Administrator\Downloads\GITPUSH>git log --oneline
+2a75022 (HEAD -> master) v0.5 LOCAL
+d131362 (origin/master, origin/HEAD) Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+f85d8aa v0.4 - FROM LOCAL
+bcb0ede v0.4 - FROM ORIGIN
+4af0856 v0.3
+5ca4dbd v0.2
+505c14e v0.1
+7ab12b5 v0.0
+
+C:\Users\Administrator\Downloads\GITPUSH>git push origin
+To https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Administrator\Downloads\GITPUSH>git pull origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 917 bytes | 101.00 KiB/s, done.
+From https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+   d131362..3d70edb  master     -> origin/master
+Auto-merging fff.txt
+CONFLICT (content): Merge conflict in fff.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\Administrator\Downloads\GITPUSH>git log --oneline
+2a75022 (HEAD -> master) v0.5 LOCAL
+d131362 Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+f85d8aa v0.4 - FROM LOCAL
+bcb0ede v0.4 - FROM ORIGIN
+4af0856 v0.3
+5ca4dbd v0.2
+505c14e v0.1
+7ab12b5 v0.0
+
+C:\Users\Administrator\Downloads\GITPUSH>git add *
+
+C:\Users\Administrator\Downloads\GITPUSH>git merge --continue
+[master 08b0fc9] Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+
+C:\Users\Administrator\Downloads\GITPUSH>git log --oneline
+08b0fc9 (HEAD -> master) Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+2a75022 v0.5 LOCAL
+3d70edb (origin/master, origin/HEAD) v0.5 REMOTE
+d131362 Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+f85d8aa v0.4 - FROM LOCAL
+bcb0ede v0.4 - FROM ORIGIN
+4af0856 v0.3
+5ca4dbd v0.2
+505c14e v0.1
+7ab12b5 v0.0
+
+C:\Users\Administrator\Downloads\GITPUSH>git push origin
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 577 bytes | 577.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git
+   3d70edb..08b0fc9  master -> master
+
+C:\Users\Administrator\Downloads\GITPUSH>git add *
+
+C:\Users\Administrator\Downloads\GITPUSH>git commit -m "v0.6 LOCAL"
+[master 26376fd] v0.6 LOCAL
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Administrator\Downloads\GITPUSH>git log --oneline
+26376fd (HEAD -> master) v0.6 LOCAL
+08b0fc9 (origin/master, origin/HEAD) Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+2a75022 v0.5 LOCAL
+3d70edb v0.5 REMOTE
+d131362 Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+f85d8aa v0.4 - FROM LOCAL
+bcb0ede v0.4 - FROM ORIGIN
+4af0856 v0.3
+5ca4dbd v0.2
+505c14e v0.1
+7ab12b5 v0.0
+
+C:\Users\Administrator\Downloads\GITPUSH>git pull origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 922 bytes | 92.00 KiB/s, done.
+From https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+   08b0fc9..a5962f5  master     -> origin/master
+Auto-merging aaa.txt
+CONFLICT (content): Merge conflict in aaa.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\Administrator\Downloads\GITPUSH>
+C:\Users\Administrator\Downloads\GITPUSH>git add *
+
+C:\Users\Administrator\Downloads\GITPUSH>git merge --continue
+[master cdf7410] Merge branch 'master' of https://github.com/jsh340866/TESTREPO-2026-03-SHARE
+
+C:\Users\Administrator\Downloads\GITPUSH>git push origin
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 626 bytes | 626.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git
+   a5962f5..cdf7410  master -> master
+
+C:\Users\Administrator\Downloads\GITPUSH>git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+C:\Users\Administrator\Downloads\GITPUSH>git remote -v
+origin  https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git (fetch)
+origin  https://github.com/jsh340866/TESTREPO-2026-03-SHARE.git (push)
+
+C:\Users\Administrator\Downloads\GITPUSH>
+
+
+
+
+
+```
