@@ -63,13 +63,15 @@ ex) 홍길동/회원가입기능
 
 [Issue 만들기]
 
-1. 기본 ISSUE 만들기
-1-1.LABEL - 태그 붙이기 
+1. 기본 ISSUE 만들기 (Organization -> Repository -> Issue -> New Issue)
+1-1.LABEL - 태그 붙이기 (Labels -> Edit labels -> New label)
 1-2.TYPE - TASK/FEATURE/BUG
 1-3.MILESTONE - 업무 상위 일정
 
-라벨 milestone
+라벨 milestone (Milestone -> New milestone) 
  - [ ] 화면설계
+
+[Issue]
 
 [pl]요구사항정의작업
  - [ ] 요구사항 내용 정리
@@ -94,8 +96,8 @@ ex) 홍길동/회원가입기능
  - [ ] 대안흐름
  - [ ] 예외흐름
 
-작성 후 create a branch
-생성한 branch로 이동 후 작업물 계시
-pull request 승인 대기
+조장 or 조원
+Create a bracnh
+생성된 branch 조원 전달
 
 ```
