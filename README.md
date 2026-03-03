@@ -33,7 +33,7 @@ cd tab클릭
 
 ```
 ### GitHun 협업
-
+```
 main(조장) - branch rules(x - Lock Branch)
 develop(조장) - branch rules()
  - feature(조원)	
@@ -60,3 +60,4 @@ develop(조장) - branch rules()
 ex) 홍길동/회원가입기능
 3.  dev branch에 pull request 요청
 4. 서로 approve 댓글 추가해서 dev에 mergr 해보기
+```
