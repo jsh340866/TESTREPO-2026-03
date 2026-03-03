@@ -68,13 +68,13 @@ ex) 홍길동/회원가입기능
 1-2.TYPE - TASK/FEATURE/BUG
 1-3.MILESTONE - 업무 상위 일정
 
+라벨 milestone
+  - [ ] 화면설계
+
 [pl]요구사항정의작업
  - [ ] 요구사항 내용 정리
  - [ ] USECASE
  - [ ] USECASE 명세서
-
-라벨 milestone
-  - [ ] 화면설계
 
 [PL] 요구사항 정의-정승원
  - [ ] 사전인터뷰
